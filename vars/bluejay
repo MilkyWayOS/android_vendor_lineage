@@ -9,21 +9,21 @@ readonly fbpk_version="v2"
 
 # Updated semi-manually via pixel/update-any-var.sh
 
-readonly build_id="AP1A.240305.019.A1"
+readonly build_id="AP1A.240505.004"
 
 # Updated automatically via pixel/update-device-vars.sh
 
-readonly prev_aosp_tag="android-14.0.0_r22"
-readonly aosp_tag="android-14.0.0_r29"
+readonly prev_aosp_tag="android-14.0.0_r30"
+readonly aosp_tag="android-14.0.0_r34"
 
-readonly build_number="11445699"
+readonly build_number="11583682"
 
-readonly image_url="https://dl.google.com/dl/android/aosp/bluejay-ap1a.240305.019.a1-factory-60e97f8c.zip"
-readonly image_sha256="60e97f8c300cd236dd7fd0ddba95173b0bf03a4ceb1c07e5fea1ded11257faf3"
+readonly image_url="https://dl.google.com/dl/android/aosp/bluejay-ap1a.240505.004-factory-cceebfed.zip"
+readonly image_sha256="cceebfed48417b14848ca7a7d8d6dcd883d636cd64cd02efb18710adb92bf488"
 
-readonly flash_url="https://flash.android.com/build/11445699?target=bluejay-user&signed"
+readonly flash_url="https://flash.android.com/build/11583682?target=bluejay-user&signed"
 
-readonly ota_url="https://dl.google.com/dl/android/aosp/bluejay-ota-ap1a.240305.019.a1-fd58dc50.zip"
-readonly ota_sha256="fd58dc50aa0ab8c992e211fd161fe1490938c952ea312b37f86a9d2eff2522c0"
+readonly ota_url="https://dl.google.com/dl/android/aosp/bluejay-ota-ap1a.240505.004-1170ac40.zip"
+readonly ota_sha256="1170ac408f05351cc64a749b6a5dc6063f83323ed704e33845fc5297979ba035"
 
-readonly security_patch="2024-03-05"
+readonly security_patch="2024-05-05"
